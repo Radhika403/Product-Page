@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel='stylesheet' href="styleP.css">
+</head>
+<body>
+    <!-- <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script> -->
+    <div id='header'>
+        <div class='logo'>
+            <img id='header-img' src='./Pictures/logo.jpeg' alt='company logo'>
+            <h1> Original Instruments</h1>
+        </div>
+        
+        <nav id='nav-bar'> 
+            <ul>
+                <li><a href='#features' class='nav-link'>Features</a></li>
+                <li ><a href='#working' class='nav-link'>How It Works</a></li>
+                <li ><a href='#pricing' class='nav-link'>Pricing</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <form id='form' action="https://www.freecodecamp.com/email-submit">
+        <label for="email" id ='email-label'> Handcrafted, Homemade Masterpieces</label>
+        <br>
+        <input id='email' type='email' name='email' placeholder='Enter your email' size=40 required>
+        <br>
+
+        <div class="submit-button">
+            <input id='submit' type="submit"></input>
+        </div>
+    </form>
+
+    <article id='features'>
+        <div class='prop'>
+            <img src='Pictures/premium.png' alt='premium icon'>
+            <div class='matter'>
+                <h1> PREMIUM MATERIAL</h1>
+                <p>Our guitars use the best wood frameworks and shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+
+        <div class='prop'>
+            <img src='Pictures/shipping.png' alt='shipping icon'>
+            <div class='matter'>
+                <h1> FAST SHIPPING</h1>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+
+        <div class='prop'>
+            <img src='Pictures/quality.png' alt='quality icon'>
+            <div class='matter'>
+                <h1> QUALITY ASSURANCE</h1>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </article>
+
+    <article id='working'>
+        <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/2rB56o7oxWY" frameborder="0" allowfullscreen></iframe>
+        </iframe>
+    </article>
+
+    <article id='pricing'>
+        <div class='price'>
+            <h1>Acoustic Guitars</h1>
+            <hr>
+            <br>
+            <h1>Rs 4000/- </h1>
+            <br>
+            <p>The acoustic guitar is a 6-stringed instrument with its standard tuning being E-A-D-G-B-E.</p>
+        </div>
+
+        <div class='price'>
+            <h1>Bass Guitars</h1>
+            <hr>
+            <br>
+            <h1>Rs 8000/- </h1>
+            <br>
+            <p>Standard bass guitars come with just four strings and are a bit larger in size</p>
+        </div>
+
+        <div class='price'>
+            <h1>Electric Guitars</h1>
+            <hr>
+            <br>
+            <h1>Rs 12000/- </h1>
+            <br>
+            <p>Electric guitars are typically smaller and easier to hold and the strings feel softer under your fingers.</p>
+        </div>
+    </article>
+
+
+</body>
+</html>
